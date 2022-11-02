@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://JLUBIO.github.io</id>
+    <title>JLUBIO</title>
+    <updated>2022-11-02T12:48:37.173Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://JLUBIO.github.io"/>
+    <link rel="self" href="https://JLUBIO.github.io/atom.xml"/>
+    <subtitle>Welcome</subtitle>
+    <logo>https://JLUBIO.github.io/images/avatar.png</logo>
+    <icon>https://JLUBIO.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, JLUBIO</rights>
+    <entry>
+        <title type="html"><![CDATA[Homework]]></title>
+        <id>https://JLUBIO.github.io/post/homework/</id>
+        <link href="https://JLUBIO.github.io/post/homework/">
+        </link>
+        <updated>2022-11-02T12:22:14.000Z</updated>
+        <content type="html"><![CDATA[<p>🏷️ Scanpy is a scalable toolkit (Python-based package) for analyzing single-cell gene expression data built jointly with anndata. It includes preprocessing, visualization, clustering, trajectory inference and differential expression testing. Please use Scanpy to preprocess (including filtering, quality control, normalization, highly variable gene selection) and cluster the <a href="https://cf.10xgenomics.com/samples/cell-exp/1.1.0/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz">data</a>, and submit the visualization of the clustering results</p>
+<p>🏷️Seurat is an R package designed for QC (quality control), analysis, and exploration of single-cell RNA-seq data. Seurat aims to enable users to identify and interpret sources of heterogeneity from single-cell transcriptomic measurements, and to integrate diverse types of single-cell data. Please use Seurat to preprocess (including quality control, normalization, highly variable gene selection, scale, dimensional reduction) and cluster the <a href="https://cf.10xgenomics.com/samples/cell-exp/1.1.0/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz">data</a>. Then find differentially expressed genes (i.e. features) based on the clustering results and visualize the differentially expressed genes with the highest expression levels in each cluster (violin plot).</p>
+]]></content>
+    </entry>
+</feed>
